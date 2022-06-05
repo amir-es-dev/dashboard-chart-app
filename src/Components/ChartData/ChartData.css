@@ -1,0 +1,33 @@
+.data-container {
+  width: 100%;
+  font-size: 0.8rem;
+}
+table,
+td,
+th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.table {
+  width: 100%;
+}
+
+.table-box {
+  overflow: auto;
+}
+
+.table input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.data-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.data-header h4 {
+  margin: 0;
+}

@@ -1,0 +1,82 @@
+.dashboard-container {
+  width: 60%;
+  border-radius: 10px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 0 1rem;
+  height: 100%;
+  background-color: #eff0f8;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background: rgb(57, 87, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(57, 87, 182, 1) 0%,
+    rgba(33, 47, 92, 1) 100%
+  );
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  color: white;
+}
+
+.icon {
+  margin: 0 5px;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.icons-box {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 950;
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  color: black;
+}
+
+.menu p {
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+.menu .menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item button {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+}

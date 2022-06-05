@@ -1,0 +1,29 @@
+.inspector-container {
+  width: 20%;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: auto;
+  background-color: #eff0f8;
+}
+.inspector-container h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: rgb(57, 87, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(57, 87, 182, 1) 0%,
+    rgba(33, 47, 92, 1) 100%
+  );
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  height: 48px;
+  color: white;
+}
+
+.inspector-content {
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: white;
+}

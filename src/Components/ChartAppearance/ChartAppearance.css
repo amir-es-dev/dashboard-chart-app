@@ -1,0 +1,18 @@
+.appearance-container {
+  width: 100%;
+  margin: 2rem 0;
+  font-size: 0.8rem;
+}
+
+.appearance-container input {
+  width: 100%;
+}
+
+.appearance-container .item-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appearance-container .item-box span:nth-child(2) {
+  width: 65%;
+}

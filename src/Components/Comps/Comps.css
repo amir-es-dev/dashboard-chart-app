@@ -1,0 +1,54 @@
+.comps-container {
+  width: 20%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: auto;
+  background-color: #eff0f8;
+}
+
+.comps-container > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: rgb(57, 87, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(57, 87, 182, 1) 0%,
+    rgba(33, 47, 92, 1) 100%
+  );
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  color: white;
+}
+.comps-container > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.comps-container .img-box {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  opacity: 85%;
+  transition: all 0.4s;
+}
+
+.comps-container .img-box:hover {
+  border-color: rgb(110, 110, 110);
+  opacity: 100%;
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+}
+
+.bi-plus-square-fill::before {
+  background-color: white;
+  border-radius: 5px;
+}

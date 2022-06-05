@@ -1,0 +1,24 @@
+.charts-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.chart-box {
+  height: fit-content;
+  border: 2px solid rgb(57, 87, 182);
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  background-color: white;
+}
+
+.selected-chart {
+  border-color: #e12f2e;
+}
+
+.chart-box p {
+  margin: 5px 0 0 0;
+  text-align: center;
+  min-height: 20px;
+}
